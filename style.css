@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    width: 100vw;
+    height: 134px;
+    background-color: #EDF2EC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inika', serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.header .wrapper {
+    width: 1220px;
+    height: 50px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_menu {
+    width: 452px;
+    height: 50px;
+}
+
+.header_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 50px;
+}
+
+.header_red {
+    font-weight: 700;
+    color: #E06733;
+}
+
+.header_link {
+    transition: .3s;
+}
+
+.header_link:hover {
+    color: #E06733;
+}
+.welcome{
+    background-color: #EDF2EC;
+    width: 100vw;
+    height: 532px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.welcome_container{
+    width: 1249px;
+    height: 408px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.welcome_paint{
+    width: 449px;
+    height: 408px;
+
+margin:5% ;
+}
+.welcome_text{
+    width: 590px;
+    height: 334px;
+
+margin:5% ;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: space-around;
+}
+.text_slogan{
+color: #717171;
+font-size: 45px;
+font-weight: 700;
+
+height: 101px;
+width: 540px;
+
+}
+.text_slogan span{
+    color: #499A18;
+}
+.text_info{
+    color: #636060;
+    font-weight: 400;
+    font-size: 20px;
+line-height: 35px;
+ 
+}
+button{
+    text-decoration: none;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    width: 158px;
+    height: 44px;
+    transition: .3s;
+    color: #000000;
+    background-color: transparent;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #E06733;
+    color: white;
+}
