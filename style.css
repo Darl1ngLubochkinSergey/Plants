@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 * {
     margin: 0;
@@ -34,7 +35,6 @@ li {
 .header .wrapper {
     width: 1220px;
     height: 50px;
-    border: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -69,70 +69,218 @@ li {
 
 .header_link:hover {
     color: #E06733;
+    font-weight: 700;
 }
-.welcome{
-    background-color: #EDF2EC;
+
+.welcome {
     width: 100vw;
     height: 532px;
+    background-color: #EDF2EC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.welcome .wrapper {
+    width: 1282px;
+    height: 407px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 400;
+    color: #717171;
+}
+
+.welcome_img {
+    width: 448px;
+    height: 407px;
+}
+
+.welcome_text {
+    width: 549px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.welcome_text h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+}
+
+.welcome_green {
+    color: #499A18;
+}
+
+.welcome_text p {
+    font-size: 20px;
+    line-height: 35px;
+    color: #636060;
+}
+
+.welcome_text button {
+    width: 158px;
+    height: 44px;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-size: 16px;
+    line-height: 20px;
+    transition: .3s;
+}
+
+.welcome_text button:hover {
+    background-color: #E06733;
+    color: #fff;
+    cursor: pointer;
+}
+
+.about{
+    height: 666px;
+    width: 100vw;
+    
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-family: 'Inika', serif;
+}
+
+.about__block{
+    width: 1222px;
+    height: 472px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 400;
+    color: #884a4a;
+    
+}
+
+.about_left{
+    width: 464px;
+    height: 472px;    
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.about_right{
+    width: 605px;
+    height: 350px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.about_right h2 {
+    font-weight: 500;
+    font-size: 47px;
+    line-height: 50px;
+}
+.about_right p{
+    font-size: 20px;
+    line-height: 35px;
+    
+}
+.about_orange{
+    color: #E06733;
+}
+.about_green{
+    color: #499A18;
+}
+
+.service{
+    width: 100vw;
+    height: 1300px;
+    
+    padding-top: 25px;
+    font-family: 'Inika', serif;
+  display: flex;
+align-items: center;
+justify-content: center;
+    background-color:#EDF2EC;
+    
+    
+}
+.service .wrapper {
+    width: 1222px;
+    height: 90%;
+    display: flex;
+  justify-content: space-around; 
+  align-items: flex-start;
+    flex-direction: column;
+}
+
+.service_header{
+    height: 94px;
+    width: 1007px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+
+   
+}
+.service_header_text{
+    height: 94px;
+    width: 306px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+    color: #499A18;
+    
+}
+
+.service_header_buttons{
+    height: 50px;
+    width: 559px;
+    display: flex;
+    justify-content:space-between;
+}
+.service_header_buttons button {
+    width: 161px;
+    height: 50px;
+    border: 2px solid #E06733;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-size: 16px;
+    line-height: 20px;
+    transition: .3s;
+    color: #E06733;
+}
+
+.service_header_buttons button:hover {
+    background-color: #E06733;
+    color: #fff;
+    cursor: pointer;
+}
+.service_main{
+    width: 1222px;
+    height: 995px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.service_card{
+    width: 330px;
+    height: 450px;
+}
+.service_text{
+    border: 1px solid #E3E1D5;
     align-items: center;
     display: flex;
     justify-content: center;
-
-}
-.welcome_container{
-    width: 1249px;
-    height: 408px;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-}
-.welcome_paint{
-    width: 449px;
-    height: 408px;
-
-margin:5% ;
-}
-.welcome_text{
-    width: 590px;
-    height: 334px;
-
-margin:5% ;
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-justify-content: space-around;
-}
-.text_slogan{
-color: #717171;
-font-size: 45px;
-font-weight: 700;
-
-height: 101px;
-width: 540px;
-
-}
-.text_slogan span{
-    color: #499A18;
-}
-.text_info{
-    color: #636060;
-    font-weight: 400;
-    font-size: 20px;
-line-height: 35px;
- 
-}
-button{
-    text-decoration: none;
-    border: 2px solid #E06733;
-    border-radius: 10px;
-    width: 158px;
-    height: 44px;
-    transition: .3s;
-    color: #000000;
-    background-color: transparent;
-}
-button:hover{
-    cursor: pointer;
-    background-color: #E06733;
-    color: white;
+    flex-wrap: wrap;
+    line-height: 20px;
+    color: #717171;
+    
 }
